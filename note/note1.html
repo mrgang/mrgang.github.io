@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>swift3数组data转换</title>
+</head>
+<body bgcolor="#FFFFFF">   
+    <center>
+    <h3>  
+    let arr:[UInt8] = [1,2,3,4,5,6]
+    let data = Data(bytes: arr)
+    
+    let array = data.withUnsafeBytes { [UInt8](UnsafeBufferPointer(start: $0, count: data.count)) }
+    /// OR
+    let count = data.count
+    var res = [UInt8](repeating: 0, count:count)
+    data.copyBytes(to: &res, count: count)
+    </h3>
+    </center>
+</body>
+
+</html>
