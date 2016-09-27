@@ -7,14 +7,14 @@
 <body bgcolor="#FFFFFF">   
     <center>
     <h3>  
-    let arr:[UInt8] = [1,2,3,4,5,6]
-    let data = Data(bytes: arr)
+    let arr:[UInt8] = [1,2,3,4,5,6] <br/>
+    let data = Data(bytes: arr)<br/>
     
-    let array = data.withUnsafeBytes { [UInt8](UnsafeBufferPointer(start: $0, count: data.count)) }
-    /// OR
-    let count = data.count
-    var res = [UInt8](repeating: 0, count:count)
-    data.copyBytes(to: &res, count: count)
+    let array = data.withUnsafeBytes { [UInt8](UnsafeBufferPointer(start: $0, count: data.count)) }<br/>
+    /// OR<br/>
+    let count = data.countv
+    var res = [UInt8](repeating: 0, count:count)<br/>
+    data.copyBytes(to: &res, count: count)<br/>
     </h3>
     </center>
 </body>
