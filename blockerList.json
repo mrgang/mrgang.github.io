@@ -2,7 +2,7 @@
     {
         "action": {
             "type": "css-display-none",
-            "selector": "div.first-card-container,#logo,#bottom,div.ec_wise_ad,div.se-head-logo,div.page-banner,div.ads-item,div.blank-frame,div.rn-typeLargePics,div.rn-typeLargeVideo,div.rn-typeSmallPics"
+            "selector": "div.first-card-container,#logo,#bottom,a.logined-banner,div.ec_wise_ad,div.se-head-logo,div.page-banner,div.ads-item,div.blank-frame,div.rn-typeLargePics,div.rn-typeLargeVideo,div.rn-typeSmallPics"
         },
         "trigger": {
             "url-filter": ".*",
