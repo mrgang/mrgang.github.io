@@ -80,7 +80,7 @@
             "load-type": [
                 "third-party"
             ],
-            "if-domain":["www.qyl01.com","www.qyl02.com","www.qyl00.com","www.qyl89.com","www.qyl90.com","www.qyl91.com"]
+            "if-domain":["www.qyl01.com","www.qyl02.com","www.qyl00.com","www.qyl03.com","www.qyl04.com","www.qyl91.com"]
         }
     }
 ]
